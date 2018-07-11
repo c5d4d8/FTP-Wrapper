@@ -58,6 +58,8 @@
 	
 	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->download("forumproject/confirm.php");
 	
+	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->download("forumproject/confirm.php", true);
+	
 	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord');
 	//$ftp->download('python.py');
 	
