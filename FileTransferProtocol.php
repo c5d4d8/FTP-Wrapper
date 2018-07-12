@@ -53,17 +53,17 @@
 	//$ftp = new FTP();
 
 	//echo "<pre>";
-	//print_r($ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->pull('forumproject'));
+	//print_r($ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->pull('exampledirectory'));
 	//echo "</pre>";
 	
-	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->download("forumproject/confirm.php");
+	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->download("exampledirectory/confirm.php");
 	
-	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->download("forumproject/confirm.php", true);
+	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->download("exampledirectory/confirm.php", true);
 	
 	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord');
 	//$ftp->download('python.py');
 	
-	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->upload('banana.txt', 'discordtest');
+	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->upload('banana.txt', 'exampledirectory');
 
-	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->upload($_FILES['file'], 'discordtest');
+	//$ftp->connect('www.voorbeeld.com', 'gebruiker@voorbeeld.com', 'wachtwoord')->upload($_FILES['file'], 'exampledirectory');
 ?>
